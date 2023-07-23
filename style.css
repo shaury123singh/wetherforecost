@@ -20,7 +20,7 @@ body{
     margin: 3px;
 padding:5px;
 text-align:center;
-font-size:14px;
+font-size:20px;
 font-weight:bold;
 
 }
@@ -48,7 +48,7 @@ font-weight:bold;
     margin-right: -50%;
     transform: translate(-50%, -50%);
     height: 240px;
-    width: 784px;    
+    width: 1200px;    
     border: 5px solid rgb(6, 14, 14);    
     border-radius: 10px;
 }
@@ -58,7 +58,7 @@ font-weight:bold;
     display: inline-bock;
     float: left;
     height: 200px;
-    width: 114px;
+    width: 190px;
     margin: 20px;
     border: 5px solid rgb(3, 39, 66);
     border-radius: 10px;
@@ -66,12 +66,12 @@ font-weight:bold;
 }
 
 .image{
-    height: 90px;
+    height: 140px;
     width: 100%;
 }
 
 .imgClass{
-    height: 90px;
+    height: 140px;
     width: 100%;
 }
 
