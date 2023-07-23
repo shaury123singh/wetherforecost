@@ -1,0 +1,107 @@
+*{  
+  /*  color: rgb(7, 1, 1);
+    background: rgb(7, 200, 243);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   */box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background:url('https://images.unsplash.com/photo-1689350753082-0caac4c6d554?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1OHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60');
+    background-repeat: no-repeat;
+    background-size:cover;
+    overflow:hidden;
+   height: 95vh;
+    font-family: 'Poppins', sans-serif;
+}
+#cityInput, #cityName, #inputContainer,button{
+   border: redius 80px;
+    margin: 3px;
+padding:5px;
+text-align:center;
+font-size:14px;
+font-weight:bold;
+
+}
+#shaury{
+    background-color: blue;
+    border-radius: 20px;
+    box-shadow: 3px 4px 3px;
+}
+
+#weatherContainer{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 300px;
+    width: 1300px;
+}
+
+#iconsContainer{
+    background-color: rgb(32, 98, 179);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 240px;
+    width: 784px;    
+    border: 5px solid rgb(6, 14, 14);    
+    border-radius: 10px;
+}
+
+.icons{
+    background-color:rgb(147, 235, 235);
+    display: inline-bock;
+    float: left;
+    height: 200px;
+    width: 114px;
+    margin: 20px;
+    border: 5px solid rgb(3, 39, 66);
+    border-radius: 10px;
+    box-shadow: 10px 6px 10px ;
+}
+
+.image{
+    height: 90px;
+    width: 100%;
+}
+
+.imgClass{
+    height: 90px;
+    width: 100%;
+}
+
+.weather{
+    margin: 5px;
+   /*  background-color: rgb(106, 215, 255); */
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.minValues{
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    height: 25px;
+    width: 85px;
+    margin: 0;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+
+.maxValues{
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    height: 25px;
+    width: 85px;
+    margin: 0;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
