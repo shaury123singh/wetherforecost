@@ -1,9 +1,18 @@
-*{  
-   color: rgb(7, 1, 1);
+*{  box-sizing: border-box;
+    margin:0;
+    padding:0;
+ /*  color: rgb(7, 1, 1);
     background: rgb(7, 200, 243);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
 }
-
+body{
+    background:url('https://images.unsplash.com/photo-1689350753082-0caac4c6d554?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1OHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60');
+    background-repeat: no-repeat;
+    background-size:cover;
+    overflow:hidden;
+   height: 95vh;
+    font-family: 'Poppins', sans-serif;
+}
 #cityInput, #cityName, #inputContainer,button{
    border: redius 80px;
     margin: 3px;
