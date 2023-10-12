@@ -9,8 +9,8 @@ body{
     background:url('https://images.unsplash.com/photo-1689350753082-0caac4c6d554?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1OHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60');
     background-repeat: no-repeat;
     background-size:cover;
-    overflow:hidden;
-   height: 95vh;
+   
+min-height:100vh;
     font-family: 'Poppins', sans-serif;
 }
 #cityInput, #cityName, #inputContainer,button{
@@ -29,34 +29,31 @@ font-weight:bold;
 }
 
 #weatherContainer{
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    height: 300px;
-    width: 1300px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+   
+
 }
 
 #iconsContainer{
-    background-color: rgb(32, 98, 179);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    height: 240px;
-    width: 1200px;    
-    border: 5px solid rgb(6, 14, 14);    
+   
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+    height: 50vh;
+  width: fit-content;   
+   
     border-radius: 10px;
 }
 
 .icons{
     background-color:rgb(147, 235, 235);
-    display: inline-bock;
-    float: left;
-    height: 200px;
-    width: 190px;
+   
+   
+    height: 215px;
+
     margin: 20px;
     border: 5px solid rgb(3, 39, 66);
     border-radius: 10px;
@@ -102,4 +99,9 @@ font-weight:bold;
     margin: 0;
     margin-bottom: 5px;
     margin-left: 5px;
+}
+@media(max-width:720px){
+    body{
+        height: 160vh;
+    }
 }
