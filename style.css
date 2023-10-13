@@ -10,7 +10,8 @@ body{
     background-repeat: no-repeat;
     background-size:cover;
    
-
+height: 100%;
+width: 100%;
     font-family: 'Poppins', sans-serif;
 }
 #cityInput, #cityName, #inputContainer,button{
@@ -102,6 +103,6 @@ font-weight:bold;
 }
 @media(max-width:720px){
     body{
-        height: 160vh;
+   min-height: 220vh;
     }
 }
